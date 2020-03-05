@@ -114,10 +114,11 @@
 }
 
 .siteNameLinkWrapper {
-  max-height: 2.8em;
   color: #000;
   font-weight: 700;
+  font-size: 14px;
   margin-bottom: 0.5em;
+  max-height: 2.8em;
 }
 
 @media (min-width: 360px) {
