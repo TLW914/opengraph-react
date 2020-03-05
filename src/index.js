@@ -248,7 +248,9 @@ export default class OpengraphReactComponent extends Component {
         {feature}
         <div className={"textWrapperLarge"}>
           <div className={"siteNameLinkWrapper"}>
-            <a href={resultsToUse.url}>{resultsToUse.site_name}</a>
+            <a href={resultsToUse.url} target='_blank'>
+              {resultsToUse.site_name}
+            </a>
           </div>
           <div className={"titleWrapper"}>
             <p>{resultsToUse.title}</p>
@@ -282,7 +284,9 @@ export default class OpengraphReactComponent extends Component {
           </div>
           <div className={"textWrapperSmall"}>
             <div className={"siteNameLinkWrapper"}>
-              <a href={resultsToUse.url}>{resultsToUse.site_name}</a>
+              <a href={resultsToUse.url} target='_blank'>
+                {resultsToUse.site_name}
+              </a>
             </div>
             <div className={"titleWrapper"}>
               <p>{resultsToUse.title}</p>
